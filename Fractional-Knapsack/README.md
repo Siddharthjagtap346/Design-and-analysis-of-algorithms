@@ -1,7 +1,4 @@
-
 ## **Fractional Knapsack (Greedy Algorithm)** 
-
----
 
 ## **Theory**
 - Maximizes **value in knapsack** with fractional items allowed  
