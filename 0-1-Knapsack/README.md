@@ -1,10 +1,4 @@
-
-## **4. 0-1 Knapsack (`README.md`)**
-
-```markdown
-# 0-1 Knapsack (Dynamic Programming)
-**Roll No:** -  
-**Subject:** DAA_LA1  
+## 0-1 Knapsack (Dynamic Programming)
 
 ---
 
@@ -31,6 +25,8 @@ Knapsack Capacity: 50
 Maximum Profit = 220
 
 ```
+screenshot-
+<img width="1187" height="350" alt="image" src="https://github.com/user-attachments/assets/c3c2227c-bb71-485a-afc8-24151d229acd" />
 
 ---
 
