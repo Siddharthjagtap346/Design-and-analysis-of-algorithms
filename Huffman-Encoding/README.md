@@ -1,4 +1,4 @@
-## **2. Huffman Encoding **
+## 2. Huffman Encoding 
 
 ---
 
@@ -54,4 +54,3 @@ Encoded bits (Huffman): 9
 - Understood **tree and heap structures**  
 - Practiced **encoding & decoding logic**
 ```
-
