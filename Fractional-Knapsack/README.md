@@ -1,10 +1,5 @@
 
-## **3. Fractional Knapsack (`README.md`)**
-
-```markdown
-# Fractional Knapsack (Greedy Algorithm)
-**Roll No:** -  
-**Subject:** DAA_LA1  
+## **Fractional Knapsack (Greedy Algorithm)** 
 
 ---
 
