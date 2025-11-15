@@ -58,6 +58,6 @@ This portfolio is designed to show recruiters my problem-solving skills, coding 
 ---
 
 ## Contact / Links
-- GitHub Profile: [https://github.com/<your-username>](https://github.com/<your-username>)  
-- Email: <your-email@example.com>
+- GitHub Profile: [https://github.com/Siddharthjagtap346>](https://github.com/Siddharthjagtap346)  
+- Email: <siddharthjagtap5091@gmail.com>
 "# Design-and-analysis-of-algorithms" 
