@@ -1,11 +1,4 @@
----
-
-## **2. Huffman Encoding (`README.md`)**
-
-```markdown
-# Huffman Encoding
-**Roll No:** -  
-**Subject:** DAA_LA1  
+## **2. Huffman Encoding **
 
 ---
 
@@ -62,4 +55,3 @@ Encoded bits (Huffman): 9
 - Practiced **encoding & decoding logic**
 ```
 
----
