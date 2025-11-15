@@ -53,4 +53,3 @@ Encoded bits (Huffman): 9
 - Applied **greedy algorithm**  
 - Understood **tree and heap structures**  
 - Practiced **encoding & decoding logic**
-```
