@@ -21,24 +21,53 @@ The **Fractional Knapsack problem** is about:
 
 ## **2. Algorithm Steps (High-level)**
 
-1. For each item, compute **value/weight ratio**.
-2. Sort all items in **descending order of ratio**.
-3. Initialize `currentWeight = 0` and `totalValue = 0`.
-4. For each item in sorted order:
+### **Step 1: Input Items and Capacity**
 
-   * If it **fits entirely**, add its full value and weight.
-   * Else, take the **fraction that fits** and update `totalValue`.
-5. Return `totalValue` → maximum value in knapsack.
+* Ask the user for **number of items `n`**.
+* For each item, input **value** and **weight**.
+* Input the **knapsack capacity `w`**.
+* Store items as a `vector<pair<int,int>>` → `(value, weight)`.
 
-**Time Complexity:**
+### **Step 2: Compute Value-to-Weight Ratio and Sort**
 
-* Sorting takes `O(n log n)`
-* Iterating through items takes `O(n)`
+* Use a **comparator function** to compute `value/weight` for each item.
+* Sort all items in **descending order of ratio** so that the most valuable per unit weight comes first.
+
+### **Step 3: Initialize Total Value**
+
+* Create `ans = 0.0` to **store total value** collected in knapsack.
+* `w` keeps track of **remaining capacity**.
+
+### **Step 4: Greedy Item Selection**
+
+* Iterate over sorted items:
+
+  * **If item fits fully:**
+
+    * Add its full value to `ans`
+    * Reduce `w` by its weight
+  * **If item doesn’t fit:**
+
+    * Take fraction: `(value/weight) * remaining capacity`
+    * Add fractional value to `ans`
+    * Stop loop as knapsack is now full
+
+### **Step 5: Output Maximum Value**
+
+* Print `ans` with **2 decimal places** using `setprecision(2)`
+* This is the **maximum value achievable** in the knapsack
+
+---
+
+## **Time Complexity**
+
+* Sorting: `O(n log n)`
+* Iterating through items: `O(n)`
 * **Overall:** `O(n log n)`
 
 ---
 
-## **5. Sample Input/Output**
+## **3. Sample Input/Output**
 
 ```
 Items: (value, weight) → (60, 10), (100, 20), (120, 30)
@@ -46,19 +75,19 @@ Knapsack Capacity: 50
 
 Maximum value in Knapsack = 240.00
 ```
-screenshot-
-<img width="780" height="276" alt="image" src="https://github.com/user-attachments/assets/6159c9b8-d348-4993-b184-97bbf5addd83" />
+
+**Screenshot:** <img width="780" height="276" alt="Fractional Knapsack Screenshot" src="https://github.com/user-attachments/assets/6159c9b8-d348-4993-b184-97bbf5addd83" />
 
 **Explanation:**
 
 * Take **60 from 60/10 item** → full
 * Take **100 from 100/20 item** → full
 * Take **80 from 120/30 item** → partial (20/30 fraction)
-* Total = 60 + 100 + 80 = 240
+* **Total = 60 + 100 + 80 = 240**
 
 ---
 
-## **6. Key Observations**
+## **4. Key Observations**
 
 * Fractional knapsack allows **splitting items**.
 * **Greedy works optimally** here (unlike 0/1 Knapsack).
@@ -66,12 +95,11 @@ screenshot-
 
 ---
 
-## **7. Learning Points**
+## **5. Learning Points**
 
 * Understand **greedy algorithm applicability**.
 * Practice **sorting by ratio**.
 * Learn **fractional contribution calculation**.
 * Useful for **resource allocation problems** in real life.
 
-
-Do you want me to do that?
+---
