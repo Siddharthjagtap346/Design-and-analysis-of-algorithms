@@ -1,7 +1,3 @@
-Sure! Let’s break this **Fractional Knapsack (Greedy Algorithm)** topic **in detail**, step by step, including how the code works, why each step is needed, and tie it to the theory. I’ll expand it fully for learning purposes.
-
----
-
 # **Fractional Knapsack (Greedy Algorithm)**
 
 ---
