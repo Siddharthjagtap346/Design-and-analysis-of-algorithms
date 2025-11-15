@@ -62,4 +62,3 @@ Time Taken (Formula): 1 microsecond
 - Understood **time complexity differences**  
 - Practiced **step counting** for algorithms  
 - Learned trade-offs between **simplicity vs efficiency**
-```
