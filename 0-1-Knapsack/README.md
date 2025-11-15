@@ -40,6 +40,4 @@ screenshot-
 ## **Learning**
 - Practiced **tabulation method in DP**  
 - Compared **fractional vs 0-1 knapsack**
-```
 
----
