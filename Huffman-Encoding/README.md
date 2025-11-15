@@ -78,9 +78,6 @@ Frequencies: `23, 12, 34, 10`
 * Traverse from root to each leaf: left = `0`, right = `1`
 * Ensures **prefix-free codes**
 * Shorter codes assigned to **frequent characters**
-
----
-
 * Huffman encoding **reduces overall storage bits** significantly.
 
 ---
