@@ -1,9 +1,3 @@
-## **1. Fibonacci Series (`README.md`)**
-
-```markdown
-# Fibonacci Series
-**Roll No:** -  
-**Subject:** DAA_LA1  
 
 ---
 
