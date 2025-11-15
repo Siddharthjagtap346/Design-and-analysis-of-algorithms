@@ -1,5 +1,4 @@
 ## 2. Huffman Encoding 
-
 ---
 
 ## **Theory**
