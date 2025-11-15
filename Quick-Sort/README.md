@@ -1,12 +1,3 @@
-
-## **6. QuickSort (Deterministic & Randomized)
-
-
-## **Theory**
-Sure! Here’s an **extended and more detailed theory section** for your QuickSort README, keeping it beginner-friendly but more explanatory:
-
----
-
 ## **6. QuickSort (Deterministic & Randomized)**
 
 ---
