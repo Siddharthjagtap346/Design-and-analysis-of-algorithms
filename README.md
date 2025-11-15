@@ -1,7 +1,7 @@
-# Data Structures & Algorithms (DAA) Portfolio
+# Design And Analysis of Algorithms (DAA) Portfolio
 **Owner:** Siddharth Jagtap  
 **Subject:** DAA  
-**Purpose:** Showcase theoretical understanding and coding exercises in DSA topics and algorithms.  
+**Purpose:** Showcase theoretical understanding and coding exercises in DAA topics and algorithms analysis.  
 
 ---
 
