@@ -1,12 +1,5 @@
 
-## **5. N-Queens Problem (`README.md`)**
-
-```markdown
-# N-Queens Problem (Backtracking)
-**Roll No:** -  
-**Subject:** DAA_LA1  
-
----
+## **5. N-Queens Problem (Backtracking)
 
 ## **Theory**
 - Place N queens on an N×N board such that **no two attack each other**  
@@ -42,6 +35,8 @@ Q . . .
 Total Solutions = 2
 
 ```
+screenshot-
+<img width="622" height="287" alt="image" src="https://github.com/user-attachments/assets/5b15e506-145d-44e7-8ab7-b22ad90db8b8" />
 
 ---
 
@@ -55,5 +50,3 @@ Total Solutions = 2
 - Understood **recursion + safety checks**  
 - Practiced **backtracking strategy**
 ```
-
----
