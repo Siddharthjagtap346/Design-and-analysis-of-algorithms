@@ -100,7 +100,7 @@ Q . . .
 Total Solutions = 2
 
 ```
-screenshot-
+**Screenshot:**
 <img width="622" height="287" alt="image" src="https://github.com/user-attachments/assets/5b15e506-145d-44e7-8ab7-b22ad90db8b8" />
 
 ---
